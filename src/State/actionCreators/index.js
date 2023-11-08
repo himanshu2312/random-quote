@@ -29,3 +29,12 @@ export const removeQuote = (id) => (dispatch) => {
             console.log(console.error)
       }
 }
+
+export const updateQuote = (id) => (dispatch) =>{
+      try{
+            dispatch({type:'UPDATE', id:id})
+      }
+      catch(error){
+            console.log(error)
+      }
+}

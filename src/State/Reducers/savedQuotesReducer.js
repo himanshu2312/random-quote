@@ -6,7 +6,8 @@ const savedQuotesReducer = (state = [], action) => {
       }
       else if (action.type === 'REMOVE') {
             console.log("removing")
-            return state.filter(s => s._id !== action.id)
+            state = state.filter(s => s._id !== action.id)
+            return state
       }
       else {
             return state;

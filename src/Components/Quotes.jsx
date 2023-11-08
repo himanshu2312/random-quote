@@ -9,7 +9,7 @@ const Quotes = ({ quotes }) => {
         quotes?.map((q, index) => {
           console.log(q)
           return (
-            < QuoteItem quote={q} key={index} />)
+            < QuoteItem quote={q} key={q._id} />)
         })
       }
     </div>
