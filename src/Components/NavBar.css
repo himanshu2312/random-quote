@@ -1,0 +1,18 @@
+ul{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0;
+      padding: 0.5em;
+}
+
+nav{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0.2em;
+      width: 100vw;
+}
+
+.active{
+      font-weight: bolder;
+}

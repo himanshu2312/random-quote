@@ -1,0 +1,14 @@
+.quote,#quote {
+      text-align: center;
+      margin: auto;
+      background:rgb(204, 69, 32);
+      border-radius:10px;
+      padding: 10px;
+      border: 1px solid white;
+}
+
+.author{
+      margin-bottom: 0;
+      font-weight: bolder;
+      font-size:small;
+}
