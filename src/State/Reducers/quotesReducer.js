@@ -1,5 +1,3 @@
-import { act } from "react-dom/test-utils";
-
 const quotesReducer = (state = [], action) => {
       if (action.type === 'NEXT') {
             return state.concat(action.payload);

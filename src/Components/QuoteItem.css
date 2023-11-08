@@ -12,3 +12,7 @@
       font-weight: bolder;
       font-size:small;
 }
+
+i:hover{
+      cursor: pointer;
+}
